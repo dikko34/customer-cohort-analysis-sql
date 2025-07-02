@@ -30,9 +30,14 @@ WHERE Row_num = 1;
 ```
 
 ## 📌 Key Insights
-- Most users placed their first order shortly after sign-up
-- Repeat purchases dropped after the 3rd order
-- Monthly cohort trends showed peak months for user engagement
+- Most users placed their first order within a short time of signing up, indicating a strong initial user intent and
+effective onboarding.
+- A noticeable drop-off in purchase frequency after the third order suggests room to improve customer
+engagement and retention beyond early purchases.
+- Monthly cohort analysis revealed patterns of user activity that can inform marketing strategies, such as
+which months attract higher-quality users or stronger conversion rates.
+- These insights enable the business to segment customers effectively, personalize follow-ups, and better
+forecast future purchasing behavior based on signup cohorts.
 
 ---
 
