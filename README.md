@@ -37,7 +37,7 @@ WHERE Row_num = 1;
 ---
 
 ## 📁 File Included
-
+https://github.com/dikko34/customer-cohort-analysis-sql/blob/main/Customer%20project.sql
 
 
 ## 📫 Contact
