@@ -1,23 +1,23 @@
 
-# 🧾 Customer Purchase Cohort Analysis (SQL)
+# Customer Purchase Cohort Analysis (SQL)
 
-## 🧩 Project Overview
+## Project Overview
 This SQL project explores customer purchasing behavior by tracking first purchases, calculating days since sign-up, and organizing users into monthly cohorts. The goal is to help a business understand retention trends and lifecycle behavior.
 
-## 🎯 Objectives
+## Objectives
 - Determine each customer's first purchase date
 - Calculate days between signup and first order
 - Segment users into cohorts based on first purchase month
 - Visualize customer retention and re-order behavior over time
 
-## 🗃️ Dataset
+##  Dataset
 - `customers$`: customer_id, signup_date
 - `orders$`: order_id, customer_id, order_date
 
-## 🛠️ Tools & Skills
+##  Tools & Skills
 SQL Server, CTEs, `ROW_NUMBER()`, `DATEDIFF()`, `JOINS`, `GROUP BY`, `MONTH()`
 
-## 🧠 Sample Query
+## Sample Query
 ```sql
 SELECT *, DATEDIFF(DAY,signup_date,order_date)
 FROM (
